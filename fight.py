@@ -31,5 +31,4 @@ while True:
         print(_time, end='')
         print('\b' * len(_time) * 2, end='', flush=True)
 
-    time.sleep(3)
-
+    time.sleep(15)
