@@ -4,7 +4,7 @@
 
 from sqlite3 import connect
 import time
-import sys
+import random
 import os
 import pyautogui
 
@@ -31,4 +31,4 @@ while True:
         print(_time, end='')
         print('\b' * len(_time) * 2, end='', flush=True)
 
-    time.sleep(15)
+    time.sleep(random.randint(7, 15))
