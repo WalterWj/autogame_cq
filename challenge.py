@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-
 import time
 import random
 import os
@@ -13,7 +12,7 @@ print("开始游戏")
 start_time = time.time()
 
 while True:
-    shop_osPath = os.path.join("img","fight")
+    shop_osPath = os.path.join("img", "challenge")
     files = os.listdir(shop_osPath)
     for file_name in files:
         if not os.path.isdir(file_name):
